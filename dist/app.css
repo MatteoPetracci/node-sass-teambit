@@ -21,12 +21,8 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 100px;
-  border: 3px solid black;
-}
-
-.wrapper nav .logo {
-  border: 2px solid black;
+  height: 80px;
+  border-bottom: 1px solid black;
 }
 
 .wrapper nav .logo img {
@@ -40,18 +36,34 @@ a {
 }
 
 .wrapper nav ul {
-  border: 2px solid black;
   display: flex;
   list-style: none;
 }
 
 .wrapper nav ul li {
   margin: 0 25px;
-  font-size: 85%;
+  font-size: 80%;
   font-weight: bold;
+}
+
+.wrapper nav ul li .arrow {
+  vertical-align: middle;
 }
 
 .wrapper nav ul li a {
   color: #58402c;
+}
+
+.wrapper nav ul li .btn {
+  padding: 10px;
+  border: 1px solid blue;
+  border-radius: 10px;
+  color: blue;
+}
+
+.wrapper nav ul li .btn img {
+  width: 20px;
+  vertical-align: middle;
+  margin-right: 10px;
 }
 
