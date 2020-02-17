@@ -64,7 +64,7 @@ a {
     color: rgb(88, 64, 44);
     .item {
       width: 50%;
-      border: 2px solid black;
+      // border: 2px solid black;
       height: 400px;
       h1 {
         font-size: $fontSize *3.2;
@@ -91,6 +91,15 @@ a {
         font-size: 90%;
         color: lightgrey;
       }
+      .arrow-right {
+        font-size: 85%;
+        i {
+          margin-top: 10px;
+        }
+      }
+    }
+    .img_jumbo {
+      width: 100%;
     }
   }
 }

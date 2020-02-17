@@ -75,7 +75,6 @@ a {
 
 .wrapper .jumbo .item {
   width: 50%;
-  border: 2px solid black;
   height: 400px;
 }
 
@@ -109,5 +108,17 @@ a {
   margin: 0 15px;
   font-size: 90%;
   color: lightgrey;
+}
+
+.wrapper .jumbo .item .arrow-right {
+  font-size: 85%;
+}
+
+.wrapper .jumbo .item .arrow-right i {
+  margin-top: 10px;
+}
+
+.wrapper .jumbo .img_jumbo {
+  width: 100%;
 }
 
