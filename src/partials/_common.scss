@@ -61,13 +61,14 @@ a {
   .jumbo {
     display: flex;
     margin-top: 100px;
+    color: rgb(88, 64, 44);
     .item {
       width: 50%;
       border: 2px solid black;
       height: 400px;
       h1 {
-        font-size: $fontSize *3.3;
-        color: rgb(88, 64, 44);
+        font-size: $fontSize *3.2;
+        letter-spacing: 2px;
       }
       p {
         margin-top: 35px;
@@ -76,9 +77,19 @@ a {
       }
       a {
         @include btn;
+        background-color: #30488f;
+        color: white;
+        font-size: 80%;
+        img {
+          width: 20px;
+          vertical-align: middle;
+          margin-right: 10px;
+        }
       }
       span {
-        margin: 0 20px;
+        margin: 0 15px;
+        font-size: 90%;
+        color: lightgrey;
       }
     }
   }
