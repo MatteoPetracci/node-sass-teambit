@@ -29,6 +29,16 @@ a {
   border: 2px solid black;
 }
 
+.wrapper nav .logo img {
+  vertical-align: middle;
+  width: 35px;
+}
+
+.wrapper nav .logo span {
+  font-size: 120%;
+  color: #58402c;
+}
+
 .wrapper nav ul {
   border: 2px solid black;
   display: flex;
@@ -39,5 +49,9 @@ a {
   margin: 0 25px;
   font-size: 85%;
   font-weight: bold;
+}
+
+.wrapper nav ul li a {
+  color: #58402c;
 }
 
