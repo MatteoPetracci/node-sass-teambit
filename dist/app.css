@@ -67,3 +67,35 @@ a {
   margin-right: 10px;
 }
 
+.wrapper .jumbo {
+  display: flex;
+  margin-top: 100px;
+}
+
+.wrapper .jumbo .item {
+  width: 50%;
+  border: 2px solid black;
+  height: 400px;
+}
+
+.wrapper .jumbo .item h1 {
+  font-size: 52.8px;
+  color: #58402c;
+}
+
+.wrapper .jumbo .item p {
+  margin-top: 35px;
+  font-size: 20.8px;
+  margin-bottom: 35px;
+}
+
+.wrapper .jumbo .item a {
+  padding: 10px;
+  border: 1px solid blue;
+  border-radius: 10px;
+}
+
+.wrapper .jumbo .item span {
+  margin: 0 20px;
+}
+
