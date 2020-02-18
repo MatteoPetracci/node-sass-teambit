@@ -49,13 +49,12 @@
   }
   .jumbo {
     display: flex;
-    margin-top: 100px;
-    height: 600px;
-    color: rgb(88, 64, 44);
+    margin: 100px 0px;
+    /* height: 600px; */
+    color: #58402c;
     .item {
-      width: 50%;
       // border: 2px solid black;
-      height: 400px;
+      // height: 400px;
       h1 {
         font-size: $fontSize *3.2;
         letter-spacing: 2px;
@@ -90,7 +89,7 @@
     }
     .img_jumbo {
       width: 100%;
-      height: 100%;
+      // height: 100%;
     }
   }
 }

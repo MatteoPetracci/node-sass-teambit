@@ -73,14 +73,9 @@ a {
 
 .wrapper .jumbo {
   display: flex;
-  margin-top: 100px;
-  height: 600px;
+  margin: 100px 0px;
+  /* height: 600px; */
   color: #58402c;
-}
-
-.wrapper .jumbo .item {
-  width: 50%;
-  height: 400px;
 }
 
 .wrapper .jumbo .item h1 {
@@ -125,7 +120,6 @@ a {
 
 .wrapper .jumbo .img_jumbo {
   width: 100%;
-  height: 100%;
 }
 
 .container_section {
@@ -194,6 +188,13 @@ a {
 
   nav ul li {
     display: none;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .jumbo .item {
+    height: 50%;
+    text-align: center;
   }
 }
 

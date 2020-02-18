@@ -17,3 +17,11 @@
     display: $displayNone;
   }
 }
+
+@media screen and (max-width: 1200px) {
+  .jumbo .item {
+    // width: 100%;
+    height: 50%;
+    text-align: center;
+  }
+}
