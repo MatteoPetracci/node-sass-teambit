@@ -7,3 +7,8 @@
     color: white;
   }
 }
+
+@mixin displayFlexColumn {
+  display: flex;
+  flex-direction: column;
+}
