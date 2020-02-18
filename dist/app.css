@@ -70,6 +70,7 @@ a {
 .wrapper .jumbo {
   display: flex;
   margin-top: 100px;
+  height: 600px;
   color: #58402c;
 }
 
@@ -121,6 +122,57 @@ a {
 .wrapper .jumbo .img_jumbo {
   width: 100%;
   height: 100%;
+}
+
+.container_section {
+  width: 50%;
+  margin: auto;
+}
+
+.first-section {
+  background-color: #FFE7D2;
+  width: 100%;
+  height: 600px;
+  color: #58402c;
+}
+
+.first-section header {
+  width: 75%;
+  margin: auto;
+  padding-top: 75px;
+}
+
+.first-section header h3 {
+  text-align: center;
+  font-size: 24px;
+  line-height: 45px;
+}
+
+.first-section main {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.first-section main .box {
+  display: flex;
+  flex-direction: column;
+}
+
+.first-section main .box img {
+  width: 140px;
+  height: 120px;
+  margin-bottom: 40px;
+}
+
+.first-section main .box p {
+  text-align: center;
+  font-size: 18px;
+}
+
+.first-section main .box_rubbit {
+  display: block;
+  width: 100%;
 }
 
 @media screen and (max-width: 1200px) {

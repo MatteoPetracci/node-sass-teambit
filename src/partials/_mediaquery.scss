@@ -1,0 +1,9 @@
+// MEDIA QUERY
+
+@media screen and (max-width: 1200px) {
+  .jumbo {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
