@@ -72,6 +72,7 @@ section {
 .wrapper nav ul li .btn:hover {
   background-color: #233569;
   color: white;
+  transition: 0.5s;
 }
 
 .wrapper nav ul li .btn:hover .google-logo {
@@ -118,6 +119,7 @@ section {
 .wrapper .jumbo .item a:hover {
   background-color: #233569;
   color: white;
+  transition: 0.5s;
 }
 
 .wrapper .jumbo .item a img {
