@@ -151,8 +151,8 @@ section {
   display: flex;
   flex-direction: column;
   text-align: center;
-  width: 60%;
   margin: auto;
+  color: #58402c;
 }
 
 .container_first .box_features.line {
@@ -162,12 +162,14 @@ section {
 .container_first .box_features {
   display: flex;
   flex-direction: column;
+  max-width: 1300px;
+  margin: auto;
   padding: 45px;
 }
 
 .container_first .box_features .box_text {
   padding-top: 50px;
-  width: 80%;
+  max-width: 700px;
   margin: auto;
 }
 
@@ -175,13 +177,15 @@ section {
   display: flex;
   justify-content: space-between;
   padding-top: 70px;
+  max-width: 880px;
+  margin: auto;
 }
 
 .container_first .box_features .box_img .img_text {
   display: flex;
   flex-direction: column;
   flex-basis: 32%;
-  padding: 20px 0;
+  padding: 25px;
   align-items: center;
 }
 
@@ -190,16 +194,23 @@ section {
 }
 
 .container_first .box_features .box_img .img_text img {
-  height: 100px;
+  height: 120px;
 }
 
 .container_first .box_features .img_rubbit {
   padding-top: 70px;
   padding-bottom: 50px;
+  margin: auto;
 }
 
 .container_first .box_features .img_rubbit img {
-  width: 30%;
+  width: 50%;
+}
+
+.container_first .box_features .img_rubbit h3 {
+  padding-top: 100px;
+  font-size: 24px;
+  font-weight: 500;
 }
 
 @media screen and (max-width: 1200px) {
@@ -217,6 +228,14 @@ section {
 
   nav ul li {
     display: none;
+  }
+
+  .box_img {
+    flex-direction: column;
+  }
+
+  .box_img p {
+    width: 60%;
   }
 }
 

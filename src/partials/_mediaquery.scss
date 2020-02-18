@@ -16,6 +16,12 @@
   nav ul li {
     display: $displayNone;
   }
+  .box_img {
+    flex-direction: column;
+  }
+  .box_img p {
+    width: 60%;
+  }
 }
 
 @media screen and (max-width: 1200px) {
