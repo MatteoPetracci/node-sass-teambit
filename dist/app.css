@@ -45,9 +45,9 @@ a {
 }
 
 .wrapper nav ul li {
-  margin-left: 25px;
+  margin-left: 35px;
   font-size: 80%;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .wrapper nav ul li .arrow {
@@ -59,10 +59,15 @@ a {
 }
 
 .wrapper nav ul li .btn {
-  padding: 10px;
-  border: 1px solid blue;
+  padding: 9px 20px;
+  border: 1px solid #30488F;
   border-radius: 10px;
-  color: blue;
+  color: #30488F;
+}
+
+.wrapper nav ul li .btn:hover {
+  background-color: #233569;
+  color: white;
 }
 
 .wrapper nav ul li .btn img {
@@ -74,7 +79,6 @@ a {
 .wrapper .jumbo {
   display: flex;
   margin: 100px 0px;
-  /* height: 600px; */
   color: #58402c;
 }
 
@@ -95,12 +99,17 @@ a {
 }
 
 .wrapper .jumbo .item a {
-  padding: 10px;
-  border: 1px solid blue;
+  padding: 9px 20px;
+  border: 1px solid #30488F;
   border-radius: 10px;
   background-color: #30488f;
   color: white;
   font-size: 80%;
+}
+
+.wrapper .jumbo .item a:hover {
+  background-color: #233569;
+  color: white;
 }
 
 .wrapper .jumbo .item a img {

@@ -9,9 +9,7 @@
     justify-content: space-between;
     height: 80px;
     border-bottom: 1px solid black;
-    // border: 3px solid black;
     .logo {
-      // border: 2px solid black;
       img {
         vertical-align: $alignMiddle;
         width: 35px;
@@ -22,13 +20,12 @@
       }
     }
     ul {
-      // border: 2px solid black;
       display: flex;
       list-style: none;
       li {
-        margin-left: 25px;
+        margin-left: 35px;
         font-size: 80%;
-        font-weight: bold;
+        font-weight: 500;
         .arrow {
           vertical-align: $alignMiddle;
         }
@@ -37,7 +34,7 @@
         }
         .btn {
           @include btn ();
-          color: blue;
+          color: #30488F;
           img {
             width: 20px;
             vertical-align: $alignMiddle;
@@ -49,14 +46,10 @@
   }
   .jumbo {
     display: flex;
-    // justify-content: space-between;
     margin: 100px 0px;
-    /* height: 600px; */
     color: #58402c;
     .item {
       width: 50%;
-      // border: 2px solid black;
-      // height: 400px;
       h1 {
         font-size: $fontSize *3;
         letter-spacing: 1.5px;
@@ -93,7 +86,6 @@
     .img_jumbo {
       width: 100%;
       flex-basis: 50%;
-      // height: 100%;
     }
   }
 }
