@@ -1,5 +1,5 @@
-@mixin btn ($padding, $border, $borderRadius) {
-  padding: $padding;
-  border: $border;
-  border-radius: $borderRadius;
+@mixin btn {
+  padding: 10px;
+  border: 1px solid blue;
+  border-radius: 10px;
 }
