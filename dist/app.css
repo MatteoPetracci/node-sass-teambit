@@ -12,6 +12,10 @@ a {
   text-decoration: none;
 }
 
+.svg-inline--fa {
+  display: none;
+}
+
 .wrapper {
   width: 80%;
   margin: auto;
@@ -180,6 +184,16 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .svg-inline--fa {
+    display: block;
+  }
+
+  nav ul li {
+    display: none;
   }
 }
 
