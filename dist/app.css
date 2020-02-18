@@ -41,7 +41,7 @@ a {
 }
 
 .wrapper nav ul li {
-  margin: 0 25px;
+  margin-left: 25px;
   font-size: 80%;
   font-weight: bold;
 }
