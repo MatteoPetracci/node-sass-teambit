@@ -198,8 +198,8 @@ a {
 }
 
 @media screen and (max-width: 1200px) {
-  .jumbo .item {
-    height: 50%;
+  .wrapper .jumbo .item {
+    width: 100%;
     text-align: center;
   }
 }
