@@ -35,10 +35,15 @@
         .btn {
           @include btn ();
           color: #30488F;
-          img {
+          &:hover {
+            .google-logo {
+              display: none;
+            }
+          }
+          svg {
             width: 20px;
             vertical-align: $alignMiddle;
-            margin-right: 10px;
+            margin-right: 5px;
           }
         }
       }

@@ -3,12 +3,16 @@
 .container_first {
   @include displayFlexColumn;
   text-align: center;
-  width: 55%;
+  width: 60%;
   margin: auto;
+  .box_features.line {
+    border-bottom: 1px solid black;
+  }
   .box_features {
     @include displayFlexColumn;
+    padding: 45px;
     .box_text {
-      padding-top: 70px;
+      padding-top: 50px;
       width: 80%;
       margin: auto;
     }
@@ -19,8 +23,11 @@
       .img_text {
         @include displayFlexColumn;
         flex-basis: 32%;
-        padding: 20px;
+        padding: 20px 0;
         align-items: center;
+        p {
+          padding-top: 35px;
+        }
         img {
           height: 100px;
         }
@@ -28,9 +35,9 @@
     }
     .img_rubbit {
       padding-top: 70px;
+      padding-bottom: 50px;
       img {
         width: 30%;
-        // text-align: center;
       }
     }
   }

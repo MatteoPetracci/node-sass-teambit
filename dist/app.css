@@ -12,7 +12,7 @@ a {
   text-decoration: none;
 }
 
-.svg-inline--fa {
+i.fa-bars {
   display: none;
 }
 
@@ -74,10 +74,14 @@ section {
   color: white;
 }
 
-.wrapper nav ul li .btn img {
+.wrapper nav ul li .btn:hover .google-logo {
+  display: none;
+}
+
+.wrapper nav ul li .btn svg {
   width: 20px;
   vertical-align: middle;
-  margin-right: 10px;
+  margin-right: 5px;
 }
 
 .wrapper .jumbo {
@@ -145,17 +149,22 @@ section {
   display: flex;
   flex-direction: column;
   text-align: center;
-  width: 55%;
+  width: 60%;
   margin: auto;
+}
+
+.container_first .box_features.line {
+  border-bottom: 1px solid black;
 }
 
 .container_first .box_features {
   display: flex;
   flex-direction: column;
+  padding: 45px;
 }
 
 .container_first .box_features .box_text {
-  padding-top: 70px;
+  padding-top: 50px;
   width: 80%;
   margin: auto;
 }
@@ -170,8 +179,12 @@ section {
   display: flex;
   flex-direction: column;
   flex-basis: 32%;
-  padding: 20px;
+  padding: 20px 0;
   align-items: center;
+}
+
+.container_first .box_features .box_img .img_text p {
+  padding-top: 35px;
 }
 
 .container_first .box_features .box_img .img_text img {
@@ -180,6 +193,7 @@ section {
 
 .container_first .box_features .img_rubbit {
   padding-top: 70px;
+  padding-bottom: 50px;
 }
 
 .container_first .box_features .img_rubbit img {
@@ -194,8 +208,8 @@ section {
   }
 }
 
-@media screen and (max-width: 770px) {
-  .svg-inline--fa {
+@media screen and (max-width: 790px) {
+  i.fa-bars {
     display: block;
   }
 
