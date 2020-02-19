@@ -65,8 +65,7 @@
   }
   .box_teammates {
     width: 50%;
-    display: flex;
-    flex-direction: column;
+    @include displayFlexColumn;
     min-width: 730px;
     img {
       width: 100%;
