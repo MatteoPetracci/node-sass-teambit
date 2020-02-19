@@ -4,9 +4,8 @@
   width: 80%;
   margin: auto;
   nav {
-    display: flex;
+    @include displayFlexBetween;
     align-items: center;
-    justify-content: space-between;
     height: 80px;
     border-bottom: 1px solid black;
     .logo {

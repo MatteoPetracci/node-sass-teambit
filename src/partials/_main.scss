@@ -5,6 +5,7 @@
   text-align: center;
   margin: auto;
   color: #58402c;
+  background-color: #ffe7d2;
   .box_features.line {
     border-bottom: 1px solid black;
   }
@@ -20,8 +21,7 @@
       margin: auto;
     }
     .box_img {
-      display: flex;
-      justify-content: space-between;
+      @include displayFlexBetween;
       padding-top: 70px;
       max-width: 880px;
       margin: auto;
@@ -50,6 +50,51 @@
         font-size: $fontSize * 1.5;
         font-weight: 500;
       }
+    }
+  }
+}
+
+// Seconda sezione
+
+.container_second {
+  display: flex;
+  margin: 120px 0;
+  color: #58402c;
+  #teammates {
+    background-color: white;
+  }
+  .box_teammates {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    min-width: 730px;
+    img {
+      width: 100%;
+    }
+    img.seal {
+      width: 60%;
+      margin-left: 80px;
+      margin-top: 25px;
+    }
+  }
+  .box_teammates.right {
+    padding-left: 25px;
+    padding-left: 25px;
+    min-width: 300px;
+    max-width: 465px;
+    h3, p, a {
+      margin-bottom: 30px;
+    }
+    h3 {
+      font-size: $fontSize * 1.43;
+      font-weight: 500;
+    }
+    p {
+      font-size: $fontSize * 1.25;
+    }
+    a {
+      font-size: $fontSize * 1.25;
+      color: #30488F;
     }
   }
 }
